@@ -1,0 +1,134 @@
+html,
+body {
+	font-family: Arial, sans-serif;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+main {
+	flex: 1;
+}
+footer {
+	text-align: center;
+	padding: 10px;
+	background-color: #f1f1f1;
+	font-size: 14px;
+	color: #333;
+}
+#container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	justify-content: center;
+	margin-top: 50px;
+}
+.card {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+.card:hover {
+	zoom: 1.05;
+	transition: all 0.3s ease-in-out;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+	transform: translateY(-5px);
+	cursor: pointer;
+}
+
+.dot {
+	width: 30px;
+	height: 30px;
+	background-color: gray;
+	margin: 15px;
+	border-radius: 50%;
+	opacity: 0;
+	transition: all 1s;
+}
+
+.dot:hover {
+	cursor: pointer;
+	opacity: 1;
+	transition: all 0.3s;
+}
+
+.r-year {
+	margin-left: 20px;
+	font-size: 24px;
+}
+
+.r-year:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.report-container-out {
+	margin-left: 50px;
+	background-color: whitesmoke;
+	height: 600px;
+	width: 600px;
+	padding: 20px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.report-container {
+	height: 600px;
+	width: 600px;
+}
+
+.dot.selectable-dot {
+	cursor: pointer;
+}
+
+.dot.active {
+	opacity: 1;
+	outline: 3px solid gray;
+	box-shadow: 0 0 10px black;
+}
+
+.download-button {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	padding: 12px 20px; 
+    border: #333 1px solid;
+	color: black;
+	font-weight: 600;
+	font-size: 16px;
+	text-decoration: none;
+	transition: background-color 0.3s ease, transform 0.2s ease;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.download-button:hover {
+	background-color: #00000011;
+	transform: translateY(-2px);
+}
+
+.download-button .icon {
+	width: 20px;
+	height: 20px;
+	stroke: black;
+}
+
+.report-title {
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
