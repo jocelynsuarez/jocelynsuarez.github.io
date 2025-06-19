@@ -16,9 +16,7 @@ Il progetto è dedicato all'analisi dei dati relativi alla sostenibilità del Gr
 - Un browser web moderno (Chrome, Firefox, Safari, Edge)
 
 ## Utilizzo
-1. Scarica o clona il repository
-2. Apri il file `index.html` con un browser web
-3. Naviga il sito selezionando un anno dalla timeline per mostrare punti salienti del report.
+Accedere alla pagina web al seguente link: https://jocelynsuarez.github.io/
 
 ## Autore
 Jocelyn Luz Suarez Pena
