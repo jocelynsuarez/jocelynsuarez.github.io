@@ -16,7 +16,7 @@ Il progetto è dedicato all'analisi dei dati relativi alla sostenibilità del Gr
 - Un browser web moderno (Chrome, Firefox, Safari, Edge)
 
 ## Utilizzo
-Accedere alla pagina web al seguente link: https://jocelynsuarez.github.io/
+Accedere alla pagina web al seguente link: https://jocelynsuarez.github.io/jocelynsuarez-pw-sostenibilita/
 
 ## Autore
 Jocelyn Luz Suarez Pena
