@@ -13,9 +13,6 @@ function updateContent(year) {
 	if (content) {
 		reportTitle.textContent = content.title;
 		reportDescription.innerHTML = content.description.split('\n\n').map(p => `<p>${p}</p>`).join('');
-		docPages.textContent = content.docPages;
-		docSize.textContent = content.docSize;
-		docType.textContent = content.docType;
 		downloadButton.href = content.link;
 	}
 }
